@@ -1,0 +1,17 @@
+{
+    "name": "laravel2026/cck",
+    "description": "内容构建工具包 - 免代码的动态内容管理模块",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Modules\\Cck\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Cck\\Providers\\CckServiceProvider"
+            ]
+        }
+    }
+}
